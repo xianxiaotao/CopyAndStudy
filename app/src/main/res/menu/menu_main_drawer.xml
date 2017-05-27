@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/menu_main_drawer_my_cv"
+            android:title="@string/menu_my_cv"
+            android:checked="true"
+            android:icon="@drawable/item_menu_my_cv" />
+        <item
+            android:id="@+id/menu_main_drawer_my_blog"
+            android:title="@string/menu_my_blog"
+            android:checked="true"
+            android:icon="@drawable/item_menu_my_blog" />
+        <item
+            android:id="@+id/menu_main_drawer_code_path"
+            android:title="@string/menu_code_path"
+            android:checked="true"
+            android:icon="@drawable/item_menu_code_path" />
+        <item
+            android:id="@+id/menu_main_drawer_successful_case"
+            android:title="@string/menu_successful_case"
+            android:checked="true"
+            android:icon="@drawable/item_menu_successful_case" />
+        <item
+            android:id="@+id/menu_main_drawer_contact"
+            android:title="@string/menu_contact"
+            android:checked="true"
+            android:icon="@drawable/item_menu_email" />
+    </group>
+
+    <item
+        android:id="@+id/menu_main_drawer_setting"
+        android:title="@string/menu_settings"
+        android:checked="true"
+        android:icon="@drawable/item_menu_setting" />
+    <item
+        android:id="@+id/menu_main_drawer_exit"
+        android:title="@string/menu_exit"
+        android:checked="true"
+        android:icon="@drawable/item_menu_exit" />
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xianxiaotao.copyandstudy">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.LoginActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SplashActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.MainActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.ExplosionFieldActivity"
+            android:screenOrientation="portrait"
+            android:label="ExplosionField"/>
+
+        <activity
+            android:name=".activity.AVLoadingIndicatorViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.AVLoadingIndicatorViewDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.PercentageBarActivity"
+            android:screenOrientation="portrait"
+            android:label="PercentageBar"/>
+
+        <activity
+            android:name=".activity.SVProgressHUDActivity"
+            android:screenOrientation="portrait"
+            android:label="SVProgressHUD"/>
+
+        <activity
+            android:name=".activity.PathTextViewActivity"
+            android:screenOrientation="portrait"
+            android:label="PathEffectTextView"/>
+
+        <activity
+            android:name=".activity.CustomLoadingActivity"
+            android:screenOrientation="portrait"
+            android:label="CustomLoading"/>
+
+        <activity
+            android:name=".activity.HeartLayoutActivity"
+            android:screenOrientation="portrait"
+            android:label="HeartLayout"/>
+        <activity
+            android:name=".activity.TimelyTextViewActivity"
+            android:screenOrientation="portrait"
+            android:label="TimelyTextView"/>
+
+        <activity
+            android:name=".activity.CircularProgressButtonActivity"
+            android:screenOrientation="portrait"
+            android:label="CircularProgressButton"/>
+
+        <activity
+            android:name=".activity.BlurImageActivity"
+            android:screenOrientation="portrait"
+            android:label="BlurImage"/>
+    </application>
+
+</manifest>

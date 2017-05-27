@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_tab_normal_list"
+          android:title="@string/item_tab_normal_list"
+          android:checked="true"
+          app:showAsAction="ifRoom|withText"
+          android:icon="@drawable/ic_demo_white"/>
+
+    <item android:id="@+id/item_tab_water_fall"
+          android:title="@string/item_tab_water_fall"
+          android:checked="true"
+          app:showAsAction="ifRoom|withText"
+          android:icon="@drawable/ic_google_white"/>
+
+    <item android:id="@+id/item_tab_other_apps"
+          android:title="@string/item_tab_other_apps"
+          android:checked="true"
+          app:showAsAction="ifRoom|withText"
+          android:icon="@drawable/ic_show_white"/>
+</menu>

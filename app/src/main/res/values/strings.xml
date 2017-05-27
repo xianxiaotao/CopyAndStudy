@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">先小涛</string>
+    <string name="author_desc">3 years for Android\nAnhui Agricultural University\n\"Keep on going never give up\"</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="button_login">登录</string>
+    <string name="button_signup">注册</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_enter">进入</string>
+    <string name="edit_username">用户名</string>
+    <string name="edit_password">密码</string>
+    <string name="turn_on_now">立即开启</string>
+    <string name="skip">跳过</string>
+
+    <string name="menu_my_cv">Mine Resume</string>
+    <string name="menu_my_blog">Personal Website</string>
+    <string name="menu_code_path">Source Code on GitHub</string>
+    <string name="menu_successful_case">Successful Cases</string>
+    <string name="menu_contact">Tel &amp; Email</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit Account</string>
+
+    <string name="item_tab_normal_list">Normal List</string>
+    <string name="item_tab_water_fall">Water Fall</string>
+    <string name="item_tab_other_apps">Other Apps</string>
+    <string name="click_to_destroy">Click To Destroy</string>
+    <string name="action_reset">Reset</string>
+    <string name="percentage_bar_title">国内互联网公司融资额前20强(2012年至2015年6月)</string>
+    <string name="action_show">SHOW</string>
+    <string name="action_hide">HIDE</string>
+    <string name="action_start">start</string>
+    <string name="label_frame_loading">Frame Loading</string>
+    <string name="label_rotate_loading">Rotate Loading</string>
+    <string name="label_custom_clip_loading">Custom Clip Loading</string>
+    <string name="label_custom_wheel_loading">Custom Wheel Loading</string>
+    <string name="label_custom_pie_loading">Custom Pie Loading</string>
+
+    <string name="label_imps_loading">Indeterminate Progress Sample</string>
+    <string name="label_ips_loading">Integer Progress Sample</string>
+    <string name="label_scs_loading">State Change Sample</string>
+    <string name="label_pds_loading">Progress Padding Sample</string>
+    <string name="label_css_loading">Custom Selector Sample</string>
+
+    <string name="Upload">Upload</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
+    <string name="IndeterminateProgressSample">Indeterminate Progress Sample</string>
+    <string name="IntegerProgressSample">Integer Progress Sample</string>
+    <string name="StateChangeSample">State Change Sample</string>
+    <string name="ProgressPaddingSample">Progress Padding Sample</string>
+    <string name="CustomSelectorSample">Custom Selector Sample</string>
+    <string name="login_sub_title">You are awesome!</string>
+    <string name="login_forgot_password">Forgot Password? Click Here</string>
+    <string name="login_username">Username or Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_english">LOGIN</string>
+    <string name="password_desc">min 6 characters</string>
+
+</resources>
